@@ -1,32 +1,22 @@
 {
-    "name": "josemmo/uxml",
+    "name": "phenyxdigitale/easyxml",
     "description": "Uncomplicated XML manipulation library with a clean and concise syntax",
     "keywords": ["xml"],
     "license": "MIT",
-    "homepage": "https://github.com/josemmo/uxml",
+    "homepage": "https://github.com/phenyxDigitale/easyxml",
     "authors": [
         {
-            "name": "José Miguel Moreno",
-            "email": "josemmo@pm.me",
-            "homepage": "https://github.com/josemmo"
+            "name": "Jeff Hunger",
+            "homepage": "https://ephenyx.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "UXML\\": "src/"
+            "EASYXML\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
+    },    
     "require": {
         "php": ">=7.1",
         "lib-libxml": "*"
-    },
-    "require-dev": {
-        "phan/phan": "*",
-        "symfony/phpunit-bridge": "*"
     }
 }
