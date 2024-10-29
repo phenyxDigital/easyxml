@@ -3,7 +3,7 @@
     "description": "Uncomplicated XML manipulation library with a clean and concise syntax",
     "keywords": ["xml"],
     "license": "MIT",
-    "homepage": "https://github.com/phenyxDigitale/easyxml",
+    "homepage": "https://github.com/phenyxDigital/easyxml",
     "authors": [
         {
             "name": "Jeff Hunger",
